@@ -1,0 +1,38 @@
+Lab setup for the project : https://github.com/inpyjama/c-ninja-listings/fork
+
+setup steps : 
+1. fork 'c-ninja-listings' to own account
+2. under 'code' -> 'codespaces' -> 'create a codespace on main'
+3. it setup the docker system ( ubuntu based system with compiler, utilities installed.
+for the utilities check .devcontainer folder
+4. QEMU:
+- is a software, in software it implements boards like RaspberryPi, dexas, STM boards.
+- it has CPU in it
+- when we write .c/.s and try to run, it will consumed by CPU and run on QEMU
+- CPU enable us to connect external debugger tools like GDB with it
+
+CODEBASE IS ACTIVE
+- open a bash command in another tab
+- open terminal in bottom portion of the page
+
+Run below commands on 'Terminal'
+- cd test 
+- make
+- make debug
+
+Run below commands on 'bash'
+- cd test 
+- make gdb
+- ni
+
+to exit from 'bash'
+- 'Q' enter
+
+to exit from 'Terminal'
+- ^ a + x
+
+IMPORTANT!!
+- stop workspace if any are active
+
+Few links in-line with the related topics :
+What is docker system : https://www.docker.com/resources/what-container/
