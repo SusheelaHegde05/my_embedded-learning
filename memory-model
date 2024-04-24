@@ -1,0 +1,25 @@
+Model of the Computer systems
+
+- how the 1970 memory model works will help understand the c programming flow with computers
+
+
+  -----------------     address bus               -----------------
+ |       CPU       |----------/---------->       |     Memory      |
+ |                 |<---------/---------->       |   instru / Data |
+  -----------------    data bus                   -----------------
+
+
+-  adress bus is outgoing we cannot write address to memory only read from memory for the specified address
+-  data bus has both read and write so it is bi-directional
+-  read = 1, write = 0
+
+NOT GATE :
+
+    |\    _
+ X  |  \  X
+----|   O----
+    |  /
+     /
+
+Now if we have 3 gates of NOT one being loop and other 
+
