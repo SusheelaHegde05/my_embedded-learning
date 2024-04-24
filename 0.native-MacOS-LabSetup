@@ -1,0 +1,25 @@
+goto http://www.docker.com/
+
+download docker for MacOS
+
+also download VS code
+
+open terminal and do the following :
+
+- git clone https://github.com/inpyjama/c-ninja-listings.git
+- cd c-ninja-listings
+- bash setup.sh [the guest is a Docker container that's being created and managed by Docker commands within the script]
+- bash 
+- c-ninja [enter docker environment]
+- cd test
+- make
+
+open VS code an terminal :
+- code --install-extension ms-vscode-remote.remote-containers
+- code --install-extension ms-vscode-remote.remote-ssh
+- code --install-extension ms-vscode-remote.remote-ssh-edit
+- code --install-extension ms-vscode.remote-explorer
+- code --install-extension zhwu95.riscv
+- code --install-extension ZixuanWang.linkerscript
+
+after this we will have docker container having the similar folder structure as c-ninja-listings (because of setup.sh)
