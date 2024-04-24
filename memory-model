@@ -21,5 +21,9 @@ NOT GATE :
     |  /
      /
 
-Now if we have 3 gates of NOT one being loop and other 
+Now if we have 3 gates of NOT one being loop and other is the output.
+Loop one is called feedback loop. So the loop keeps one bit information. 
+![Image Alt text](https://github.com/SusheelaHegde05/my_embedded-learning/blob/main/Screenshot%202024-04-24%20at%201.23.30%20PM.png "Optional title")
+
+
 
